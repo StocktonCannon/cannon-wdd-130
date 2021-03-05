@@ -1,6 +1,4 @@
-# cannon-wdd-130
-Final project site for WDD 130 @ BYUI
+# WDD 130 Final Project
+Owner: Stockton Cannon
 
-THIS IS A TEST EDIT
-
-THIS IS ANOTHER TEST EDIT
+Semester: 2021
