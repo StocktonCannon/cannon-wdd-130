@@ -76,7 +76,8 @@ main {
     font-size: var(--font-size);
     padding: var(--spacing);
     color: var(--font-color);
-    background-color: var(--background-color);
+    background: rgb(0,182,39);
+background: linear-gradient(0deg, rgba(0,182,39,1) 0%, rgba(180,170,161,1) 100%);
 }
 
 footer {
@@ -153,6 +154,54 @@ img {
 @media screen and (min-width:1000px) {
 	#mid-hp-content{ margin-left: 200px; margin-right: 200px; }
 }
+
+.gridcardleft {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    line-height: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+
+.gridcardright {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 25px;
+    line-height: 0;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 25px;
+}
+.card {
+    background-color: var(--primary-color);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+}
+  .card:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.75);
+}
+
+.cardfontheader {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.cardfontcontent {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+
+.bio {
+    background-color: var(--primary-color);
+}
+
 h1 {
     line-height: normal;
     text-align: center;
@@ -161,6 +210,20 @@ h1 {
     font-family:var(--font-family-headings);
 }
 h2 {
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+    font-size: var(--heading-font-size);
+    font-family:var(--font-family-headings);
+}
+h3 {
+    line-height: normal;
+    text-align: center;
+    padding-top: 20px;
+    font-size: var(--heading-font-size);
+    font-family:var(--font-family-headings);
+}
+h4 {
     line-height: normal;
     text-align: center;
     padding-top: 20px;
@@ -222,14 +285,15 @@ p{ font-size:calc(12px + .8vw); }
 }
 @media screen and (max-width:900px) {
 	.text-box{ height: 100%; width: 350px;}
-}
-
-h3 {
-    font-size:var(--heading-font-size);
-    text-align: center;
-    margin-top: 30px;
-    margin-bottom: 0;
-    font-family:var(--font-family-headings);
+    .gridcardleft {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+    .gridcardright {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 .box {
