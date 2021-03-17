@@ -320,6 +320,22 @@ p{ font-size:calc(12px + .8vw); }
     }
   }
 
+/*CONTACT US PAGE*/
+
+.top-form {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr;
+    grid-template-rows: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: right;
+    grid-gap: 20px;
+}
+.about-us-border {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 
 /*END OF MY CHANGES*/
 footer #dark-mode {
