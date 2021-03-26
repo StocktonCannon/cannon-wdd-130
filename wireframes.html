@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
     <script src="js/dark-mode.js"></script>
+    <script src="js/gallery.js"></script>
 </head>
 <body>
     <header>
@@ -31,8 +32,8 @@
                     </a>
                 </li>
                 <li>
-                    <a href="subpage-2.html">
-                        Subpage 2
+                    <a href="genetics.html">
+                        Genetics
                     </a>
                 </li>
                 <li>
@@ -44,6 +45,69 @@
         </nav>
     </header>
     <main>
+
+        <h1>Wireframes</h1>
+
+        <!-- Container for the image gallery -->
+            <div class="gallery">
+    
+                <!-- Full-width images with number text -->
+                <div id="imgwindow">  
+                    <div class="slides slideone">
+                    <div class="numbertext">1 / 5</div>
+                        <img src="assets/wireframes/About-Us-Wireframe.png">
+                    </div>
+                
+                    <div class="slides">
+                    <div class="numbertext">2 / 5</div>
+                        <img src="assets/wireframes/contact-us-image.png">
+                    </div>
+                
+                    <div class="slides">
+                    <div class="numbertext">3 / 5</div>
+                        <img src="assets/wireframes/photo.png">
+                    </div>
+                
+                    <div class="slides">
+                    <div class="numbertext">4 / 5</div>
+                        <img src="assets/wireframes/wireframe-image-final.png">
+                    </div>
+                    
+                    <div class="slides">
+                    <div class="numbertext">5 / 5</div>
+                        <img src="assets/wireframes/Genetics-Wireframe.png">
+                    </div>
+                        <
+
+
+                </div>  
+    
+            
+                <!-- Thumbnail images -->
+                <div class="gallery-options">
+                    <div class="column">
+                        <img class="demo cursor" src="assets/wireframes/About-Us-Wireframe.png" style="width:100%" onclick="currentSlide(1)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/wireframes/contact-us-image.png" style="width:100%" onclick="currentSlide(2)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/wireframes/photo.png" style="width:100%" onclick="currentSlide(3)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/wireframes/Genetics-Wireframe.png" style="width:100%" onclick="currentSlide(5)">
+                    </div>
+                    <div class="column">
+                        <img class="demo cursor" src="assets/wireframes/wireframe-image-final.png" style="width:100%" onclick="currentSlide(4)">
+                    </div>
+                </div>
+            </div>
+        
+
+<!-- 
+    wk 6 wireframe for home page
+    wk 7 wireframe for 2 subpages
+-->
 
     </main>
     <footer>
@@ -80,7 +144,3 @@
 </body>
 </html>
 
-<!-- 
-    wk 6 wireframe for home page
-    wk 7 wireframe for 2 subpages
--->
