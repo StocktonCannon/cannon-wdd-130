@@ -77,7 +77,7 @@ main {
     padding: var(--spacing);
     color: var(--font-color);
     background: rgb(0,182,39);
-background: linear-gradient(0deg, rgba(0,182,39,1) 0%, rgba(180,170,161,1) 100%);
+    background: linear-gradient(0deg, rgba(0,182,39,1) 0%, rgba(180,170,161,1) 100%);
 }
 
 footer {
@@ -383,7 +383,7 @@ p{ font-size:calc(12px + .8vw); }
 
 label {
     line-height: normal;
-    font-size: calc(var(--heading-font-size)/1.5);
+    font-size: var(--heading-font-size);
     font-family:var(--font-family-headings)
 }
 
@@ -535,7 +535,21 @@ label {
     margin-left: auto;
     margin-right: auto;
     background-color: var(--primary-color);
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: var(--font-family-body);
+    font-size:var(--body-font-size);
   }
+
+  table {
+      text-align: center;
+  }
+  
+  @media screen and (max-width:1200px) {
+    table, th, td {
+        font-size: 18px;
+    }
+}
 
 /*END OF MY CHANGES*/
 footer #dark-mode {
