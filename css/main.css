@@ -633,7 +633,7 @@ footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color:var(--dark-background-color);
+    background-color: var(--background-color);
     border: 1px solid var(--border-color);
     border-radius: 30px;
     padding: 3px;
