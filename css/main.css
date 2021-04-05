@@ -722,7 +722,7 @@ body.dark-mode main {
     background: linear-gradient(0deg, rgb(1, 94, 21) 0%, rgb(3, 167, 44) 100%);
 }
 
-body.dark-mode main table, th, td {
+body.dark-mode main table th td {
     background-color: var(--dark-alt-background-color);
     border-color: var(--dark-border-color);
     color: var(--dark-alt-font-color);
