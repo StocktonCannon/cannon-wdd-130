@@ -679,10 +679,6 @@ body.dark-mode header a {
     color: var(--dark-alt-font-color);
 }
 
-body.dark-mode main {
-    color: var(--dark-font-color);
-    background-color: var(--dark-background-color);
-}
 
 body.dark-mode footer {
     border-top: 1px solid var(--dark-border-color);
@@ -713,10 +709,15 @@ main.dark-mode section {
     background-color: var(--dark-primary-color);
 }
 
-main.dark-mode #logo {
+body.dark-mode header #logo {
     filter: invert(1);
 }
 
-main.dark-mode {
+/*body.dark-mode main {
+    color: var(--dark-font-color);
+    background-color: var(--dark-background-color);
+}*/
+
+body.dark-mode main {
     background: linear-gradient(0deg, rgb(1, 94, 21) 0%, rgb(3, 167, 44) 100%);
 }
