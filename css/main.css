@@ -19,9 +19,10 @@
     /* Dark Mode Colors */
     --dark-background-color: #264040;
     --dark-alt-background-color: #0a1761;
-    --dark-primary-color: #EDF5FC;
-    --dark-alt-primary-color: #DBFE87;
+    --dark-primary-color: #0fc527;
+    --dark-alt-primary-color: #056111;
     --dark-border-color: white;
+    --dark-alt-font-color:white;
 }
 
 html, body {
@@ -705,4 +706,10 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn {
 
 body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
     background-color: var(--dark-border-color);
+}
+
+/*MY CHANGES*/
+
+body.dark-mode section {
+    background-color: var(--dark-primary-color);
 }
