@@ -85,7 +85,6 @@ main {
     font-size: var(--font-size);
     padding: var(--spacing);
     color: var(--font-color);
-    background: rgb(0,182,39);
     background: linear-gradient(0deg, rgba(0,182,39,1) 0%, rgba(180,170,161,1) 100%);
 }
 
@@ -712,4 +711,12 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 main.dark-mode section {
     background-color: var(--dark-primary-color);
+}
+
+main.dark-mode #logo {
+    filter: invert(1);
+}
+
+main.dark-mode {
+    background: linear-gradient(0deg, rgb(1, 94, 21) 0%, rgb(3, 167, 44) 100%);
 }
