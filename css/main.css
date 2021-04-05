@@ -686,7 +686,7 @@ body.dark-mode footer {
     background-color: var(--dark-alt-background-color);
 }
 
-main.dark-mode footer a {
+body.dark-mode footer a {
     color: var(--dark-alt-font-color);
 }
 
@@ -705,7 +705,7 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 /*MY CHANGES*/
 
-main.dark-mode section {
+body.dark-mode main section {
     background-color: var(--dark-primary-color);
 }
 
@@ -720,4 +720,21 @@ body.dark-mode header #logo {
 
 body.dark-mode main {
     background: linear-gradient(0deg, rgb(1, 94, 21) 0%, rgb(3, 167, 44) 100%);
+}
+
+body.dark-mode main table {
+    background-color: var(--dark-alt-background-color);
+    border-color: var(--dark-border-color);
+    color: var(--dark-alt-font-color);
+}
+
+body.dark-mode main form #contact-form-submit {
+    background-color: var(--dark-alt-background-color);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    border: 3px solid white;
+}
+body.dark-mode main form #contact-form-submit:hover {
+    box-shadow: 0 16px 32px 0 rgba(0,0,0,0.75);
+    background-color: var(--dark-alt-primary-color);
 }
