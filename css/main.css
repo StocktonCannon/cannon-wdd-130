@@ -9,10 +9,8 @@
     --font-size: 1.15rem;
     /* Normal Colors */
     --background-color:#B4AAA1;
-    /*EDF5FC*/
     --alt-background-color: #00a1b6;
     --primary-color: #B0FF92;
-    /*8DDBE0*/
     --alt-primary-color: #9AB63E;
     --border-color: black;
     --alt-font-color:black;
@@ -752,4 +750,12 @@ body.dark-mode main section .card{
     background-color: var(--dark-alt-background-color);
     color: white;
     border-color: white;
+}
+
+body.dark-mode main section.gridcardleft{
+    background-color: transparent;
+}
+
+body.dark-mode main section.gridcardright{
+    background-color: transparent;
 }

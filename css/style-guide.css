@@ -1,15 +1,19 @@
 /* YOU WILL EDIT ALL THE COLORS BELOW */
 :root {
+    /* Normal Colors */
     --background-color:#B4AAA1;
     --alt-background-color: #00a1b6;
     --primary-color: #B0FF92;
     --alt-primary-color: #9AB63E;
+    --border-color: black;
+    --alt-font-color:black;
     /* Dark Mode Colors */
     --dark-background-color: #264040;
-    --dark-alt-background-color: #154B7A;
-    --dark-primary-color: #EDF5FC;
-    --dark-alt-primary-color: #DBFE87;
+    --dark-alt-background-color: #0a1761;
+    --dark-primary-color: #0fc527;
+    --dark-alt-primary-color: #056111;
     --dark-border-color: white;
+    --dark-alt-font-color:white;
 }
 
 html, main {
