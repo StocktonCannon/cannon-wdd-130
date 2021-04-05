@@ -706,7 +706,9 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 /*MY CHANGES*/
 
 body.dark-mode main section {
-    background-color: var(--dark-primary-color);
+    background-color: var(--dark-alt-background-color);
+    color: white;
+    border-color: white;
 }
 
 body.dark-mode header #logo {
@@ -743,11 +745,11 @@ body.dark-mode main form #contact-form-submit:hover {
 body.dark-mode main section .bio{
     background-color: var(--dark-alt-background-color);
     color: white;
-    border: white;
+    border-color: white;
 }
 
 body.dark-mode main section .card{
     background-color: var(--dark-alt-background-color);
     color: white;
-    border: white;
+    border-color: white;
 }
