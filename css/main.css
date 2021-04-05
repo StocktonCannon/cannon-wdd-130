@@ -691,7 +691,7 @@ body.dark-mode footer {
     background-color: var(--dark-alt-background-color);
 }
 
-body.dark-mode footer a {
+main.dark-mode footer a {
     color: var(--dark-alt-font-color);
 }
 
@@ -710,6 +710,6 @@ body.dark-mode footer #dark-mode #tgl-wrapper .tgl + .tgl-btn:after {
 
 /*MY CHANGES*/
 
-body.dark-mode section {
+main.dark-mode section {
     background-color: var(--dark-primary-color);
 }
